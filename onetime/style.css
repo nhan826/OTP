@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Questrial&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(219, 219, 219);
+    overscroll-behavior: none;
+    padding-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content:center;
+    height: 80%;
+    padding-top: 0px;
+    background-color: rgb(219, 219, 219);
+
+}
+
+textarea{
+    outline: none;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 17px;
+    border: none; 
+    height: 80%;
+    width: 100%;
+    resize:none;
+
+}
+button{
+    font-family: 'Questrial', sans-serif;
+    font-size: 102%;
+    width: 100%;
+    border: none;
+    padding: 13px;
+    border-radius: none;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    letter-spacing: 2.5px;
+    color: #3d3f45;
+    
+}
+
+
+
+#e_button{
+    background-color: #5fa7c1;
+    
+
+}
+
+#d_button{
+    background-color: #39c9bb;
+}
+
+#g_button{
+    background-color: #f7cd88;
+}
+
+
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+    
+}
+
+
+.label_txt{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #f7f9fc;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.header_nav{
+    background-color: white;
+    padding: 18px 30px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    -webkit-box-shadow: 3px 4px 16px -6px rgba(0,0,0,0.33);
+    -moz-box-shadow: 3px 4px 16px -6px rgba(0,0,0,0.33);
+    box-shadow: 3px 4px 16px -6px rgba(0,0,0,0.33);
+margin-bottom: 20px;
+}
+
+.logo{
+    width: 250px;
+ 
+}
+
+.section1, .section2, .section3{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        justify-content:stretch;
+        flex-direction: column;
+        padding-top: 10px !important;
+        margin-bottom: 50px;
+
+        
+    }
+    textarea{
+        height: 400px;
+        width: 100%;
+        resize:none;
+    }
+  
+    .section3{
+        padding-bottom: 100px;
+    }
+
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>One-Time Pad Encryption</title>
+</head>
+<body>
+    <div class = "header_nav">
+        <img class="logo" src="threefold_logo.svg" alt="">
+    </div>
+    <div class="container">
+        <div class="section1">
+            <p class = "label_txt">Plaintext</p>
+            <textarea id="plaintext" rows="4" cols="50"></textarea>
+            <button id = "e_button" onclick="encrypt()">Encrypt</button>
+        </div>
+
+        <div class="section2">
+            <p class = "label_txt">Key</p>
+            <textarea id="key" rows="4" cols="50"></textarea>
+            <button  id = "g_button" onclick="generateKey()">Generate</button>
+
+        </div>
+
+        <div class="section3">
+        <p class = "label_txt">Ciphertext</p>
+        <textarea id="ciphertext" rows="4" cols="50" readonly></textarea>
+        <button id="d_button" onclick="decrypt()">Decrypt</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
